@@ -1,8 +1,8 @@
 .whole-end {
     border-bottom: 2px solid #f2f2f2;
     width: 100%;
-    height: 200px;
-    margin-top: 47px;
+    height: 454px;
+    margin-top: 80px;
 }
 
 .whole-end .up {
@@ -11,6 +11,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+
 }
 
 .whole-end .up .one,
@@ -40,11 +42,40 @@
 }
 
 .whole-end .center {
-    border: 1px solid red;
-    width: 1190px;
+    width: 100%;
     height: 63px;
+    background: white;
+}
+
+.whole-end .center .all-text {
+    border-bottom: 1px solid #ddd;
+    height: 63px;
+    line-height: 31px;
+}
+.whole-end .center .all-text .all-one,
+.whole-end .center .all-text .all-two {
+    margin-left: 2px;
+    color: #6c6c6c;
 }
 
 .whole-end .down {
-    border: 1px solid peru;
+    /*border: 1px solid red;*/
+    width: 100%;
+    height: 198px;
+    background: white;
+    margin-top: -12px;
+}
+
+.whole-end .down .word {
+    color: #9c9c9c;
+}
+
+.whole-end .down .word .p1,
+.whole-end .down .word .p2{
+    color: #6c6c6c;
+}
+
+
+.whole-end .down .word .p1 {
+    padding-top: 10px;
 }

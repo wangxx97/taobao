@@ -25,9 +25,9 @@
 }
 
 .three-ten .up  .text p {
-    border: 1px solid ;
     color: #ff9f00;
     margin-top: 4px;
+    padding-top: 10px;
 }
 
 .three-ten .center {
@@ -52,10 +52,16 @@
 }
 
 .three-ten  .center .row1 .row2 {
+    border-left: 1px solid transparent;
+    border-top: 1px solid transparent;
     border-bottom: 1px solid #f4f4f4;
     border-right: 1px solid #f4f4f4;
     width: 238px;
     height: 334px;
+}
+
+.three-ten  .center .row1 .row2:hover {
+    border: 1px solid #ff5000;
 }
 
 .three-ten  .center .row1 .row2 .row3 {
