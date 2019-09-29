@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.w {
+    width: 1190px;
+    margin: 0 auto;
+    color: #3C3C3C;
+    position: relative;
+}
+
+.inner {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.red-border {
+    border: 1px solid red;
+}
+
+.green-border {
+    border: 1px solid greenyellow;
+}
+
+.blue-border {
+    border: 1px solid cornflowerblue;
+}
+
+a {
+    color: #3C3C3C;
+}
+
+
+.whole-promotion {
+    width: 100%;
+}
+
+/* 引用iconfont*/
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+
+.jiade {
+    border: 1px solid black;
+    height: 500px;
+    margin-top: 7px;
+}

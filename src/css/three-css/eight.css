@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* 第八块 */
+.three-eight {
+  margin-top: 7px;
+  width: 1190px;
+  height: 255px;
+  background: white;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.07); }
+  .three-eight .t-e-up {
+    border-bottom: 1px solid #f2f2f2;
+    color: #31ba98;
+    margin-top: 5px;
+    width: 1190px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px; }
+    .three-eight .t-e-up span {
+      margin-left: 25px; }
+  .three-eight .t-e-down {
+    width: 1190px;
+    height: 200px;
+    display: flex;
+    flex-direction: row; }
+    .three-eight .t-e-down .eight-a {
+      width: 236px;
+      height: 52px;
+      line-height: 52px; }
+      .three-eight .t-e-down .eight-a a {
+        font-size: 18px;
+        margin-left: 25px;
+        margin-top: 10px; }
+        .three-eight .t-e-down .eight-a a:hover {
+          color: #ff5000; }
+
+.eight-img-text {
+  height: 120px;
+  width: 216px;
+  margin-top: 18px;
+  margin-left: 21px;
+  display: flex;
+  flex-direction: row; }
+  .eight-img-text img {
+    height: 120px;
+    width: 120px;
+    border: none; }
+
+.eight-img-text {
+  border: none; }
+  .eight-img-text .text {
+    height: 120px;
+    width: 95px;
+    display: flex;
+    flex-direction: column;
+    border: none; }
+    .eight-img-text .text .p1 {
+      color: #333;
+      font-size: 16px;
+      margin-top: 20px;
+      margin-left: 10px; }
+
+.eight-img-text .text .p2 {
+  color: #999;
+  font-size: 14px;
+  margin-left: 10px; }
+
+.eight-img-text .text .p3 {
+  color: #ff5000;
+  border: 1px solid #ff5000;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 20px;
+  width: 70px;
+  margin-top: 13px;
+  margin-left: 15px; }
+
+.e-d1, .e-d2, .e-d3, .e-d4 {
+  width: 239px;
+  height: 200px; }
+
+.e-d1,
+.e-d2,
+.e-d3,
+.e-d4 {
+  border-right: 1px solid #f2f2f2; }

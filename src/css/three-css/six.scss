@@ -1,0 +1,111 @@
+/* 第六块 */
+.three-six {
+  margin-top: 7px;
+  /*border: 1px solid red;*/
+  width: 1190px;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .07);
+}
+
+.s-left {
+  width: 840px;
+  height: 290px;
+  background: white;
+}
+
+.s-left .s-left-up {
+  width: 825px;
+  height: 48px;
+  line-height: 14px;
+  margin-top: 2px;
+  margin-left: 15px;
+  font-size: 18px;
+  color: #AD45Df;
+}
+
+.s-left .s-left-down {
+  width: 839px;
+  height: 240px;
+  margin-top: -11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 0.5px solid #f4f4f4;
+}
+
+.l-d-one, .l-d-two, .l-d-three {
+  width: 278px;
+  height: 234px;
+}
+
+.l-d-one, .l-d-two {
+  border-right: 1px solid #f2f2f2;
+}
+
+.l-d-one:hover, .l-d-two:hover, .l-d-three:hover {
+  border: 0.2px solid #ff8000;
+}
+
+.s-one-text, .s-two-text, .s-three-text {
+  width: 278px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.s-one-text a, .s-two-text a, .s-three-text a {
+  margin-left: 15px;
+}
+
+.s-one-text .s-a1, .s-two-text .s-a1, .s-three-text .s-a1 {
+  margin-top: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.s-one-text .s-a1:hover, .s-two-text .s-a1:hover, .s-three-text .s-a1:hover {
+  color: #ff8000;
+}
+
+.s-one-text .s-a2, .s-two-text .s-a2, .s-three-text .s-a2 {
+  margin-top: 10px;
+  color: #999;
+}
+
+.s-one-img, .s-two-img, .s-three-img {
+  width: 278px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.s-one-img img, .s-two-img img, .s-three-img img {
+  width: 120px;
+  height: 120px;
+}
+
+.s-one-img .img2, .s-two-img .img2, .s-three-img .img2 {
+  margin-left: 5px;
+}
+
+.s-right {
+  width: 340px;
+  height: 290px;
+  background: white;
+}
+
+.s-right:hover {
+  border: 0.5px solid #ff8000;
+}
+
+.s-right img {
+  width: 300px;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 17px;
+}
+

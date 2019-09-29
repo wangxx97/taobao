@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* 第三块 */
+.three-three {
+  /*border: 1px solid red;*/
+  height: 264px;
+  background: white;
+  margin-top: 7px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.07); }
+
+.three-three .t-t-logo {
+  /*border: 1px solid green;*/
+  line-height: 60px;
+  height: 60px; }
+
+.three-three .t-t-logo img {
+  /*border: 1px solid black;*/
+  width: 80px;
+  height: 22px;
+  line-height: 60px;
+  margin-left: 15px; }
+
+.three-three .t-t-logo .s1 {
+  margin-left: 10px; }
+
+.three-three .t-t-logo .s2, .three-three .t-t-logo .s4, .three-three .t-t-logo .s6 {
+  height: 20px;
+  width: 20px;
+  border: 1px solid transparent;
+  color: #ff8000;
+  background: #ffe4dc;
+  border-radius: 2px;
+  font-size: 15px; }
+
+.three-three .t-t-logo .s7 {
+  float: right;
+  margin-right: 20px;
+  cursor: pointer; }
+
+.three-three .t-t-logo .s7:hover {
+  color: #ff8000; }
+
+.three-three .example {
+  display: flex;
+  flex-direction: row;
+  width: 1190px; }
+
+.three-three .example .img-one, .three-three .example .img-two, .three-three .example .img-three {
+  width: 377px;
+  height: 180px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row; }
+
+.three-three .example .img-two img {
+  border: 1px solid rgba(228, 228, 228, 0.48);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.02); }
+
+.three-three .example .img-one .text,
+.three-three .example .img-two .text,
+.three-three .example .img-three .text {
+  display: flex;
+  flex-direction: column; }
+
+.three-three .example .img-one .text a,
+.three-three .example .img-two .text a,
+.three-three .example .img-three .text a {
+  font-size: 16px;
+  width: 161px;
+  height: 44px;
+  margin-top: 10px;
+  margin-left: 15px; }
+
+.three-three .example .img-one .text a:hover,
+.three-three .example .img-two .text a:hover,
+.three-three .example .img-three .text a:hover {
+  color: #ff8000; }
+
+.three-three .example .img-one .text span,
+.three-three .example .img-two .text span,
+.three-three .example .img-three .text span {
+  width: 161px;
+  height: 28px;
+  margin-top: 15px;
+  margin-left: 15px; }
+
+.three-three .example .img-one .text .tiao,
+.three-three .example .img-two .text .tiao,
+.three-three .example .img-three .text .tiao {
+  height: 6px;
+  width: 159px;
+  background: #ffe4dc;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 15px; }
+
+.three-three .example .img-one .text .tiao .tiao1,
+.three-three .example .img-two .text .tiao .tiao1,
+.three-three .example .img-three .text .tiao .tiao1 {
+  border: none;
+  height: 6px;
+  border-radius: 20px; }
+
+.three-three .example .img-one .text .tiao .tiao1 {
+  width: 5px;
+  background: #fe3338; }
+
+.three-three .example .img-two .text .tiao .tiao1 {
+  width: 20px;
+  background: #fe3338; }
+
+.three-three .example .img-three .text .tiao .tiao1 {
+  width: 45px;
+  background: #fe3338; }
+
+.three-three .example .img-one .buy,
+.three-three .example .img-two .buy,
+.three-three .example .img-three .buy {
+  width: 161px;
+  margin-left: 15px;
+  margin-top: 5px;
+  color: #ff8000; }
+
+.three-three .example .img-one .buy .buy1,
+.three-three .example .img-two .buy .buy1,
+.three-three .example .img-three .buy .buy1 {
+  margin-left: 0; }
+
+.three-three .example .img-one .buy .buy2,
+.three-three .example .img-two .buy .buy2,
+.three-three .example .img-three .buy .buy2 {
+  margin-left: 70px; }
+
+.three-three .example .img-one .money,
+.three-three .example .img-two .money,
+.three-three .example .img-three .money {
+  margin-left: 15px;
+  margin-top: 5px; }
+
+.three-three .example .img-one .money .money1,
+.three-three .example .img-two .money .money1,
+.three-three .example .img-three .money .money1 {
+  margin-left: 0;
+  font-size: 18px;
+  color: #f40; }
+
+.three-three .example .img-one .money .money2,
+.three-three .example .img-two .money .money2,
+.three-three .example .img-three .money .money2 {
+  color: #999;
+  text-decoration: line-through; }

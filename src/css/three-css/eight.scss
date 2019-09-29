@@ -1,0 +1,129 @@
+/* 第八块 */
+.three-eight {
+  margin-top: 7px;
+  //border: 1px solid red;
+  width: 1190px;
+  height: 255px;
+  background: white;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .07);
+
+
+  .t-e-up {
+    //border: 1px solid black;
+    border-bottom: 1px solid #f2f2f2;
+    color: #31ba98;
+    margin-top: 5px;
+    width: 1190px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+
+    span {
+      margin-left: 25px;
+    }
+  }
+
+  .t-e-down {
+    //border: 1px solid green;
+    width: 1190px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+
+    :nth-child(1),
+    :nth-child(2),
+    :nth-child(3),
+    :nth-child(4) {
+      //border: 1px solid #f2f2f2;
+    }
+
+
+      .eight-a {
+        width: 236px;
+        height: 52px;
+        line-height: 52px;
+
+        a {
+          font-size: 18px;
+          margin-left: 25px;
+          //position: absolute;
+          margin-top: 10px;
+
+          &:hover {
+            color: #ff5000;
+          }
+        }
+
+      }
+    }
+  }
+
+.eight-img-text {
+  height: 120px;
+  width: 216px;
+  margin-top: 18px;
+  margin-left: 21px;
+  display: flex;
+  flex-direction: row;
+  //justify-content: space-around;
+
+  img {
+    height: 120px;
+    width: 120px;
+    border: none;
+  }
+}
+
+.eight-img-text {
+  border: none;
+
+  .text {
+    height: 120px;
+    width: 95px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+
+    .p1 {
+      color: #333;
+      font-size: 16px;
+      margin-top: 20px;
+      margin-left: 10px;
+    }
+  }
+}
+
+.eight-img-text {
+  .text {
+    .p2 {
+      color: #999;
+      font-size: 14px;
+      margin-left: 10px;
+    }
+  }
+}
+
+.eight-img-text {
+  .text {
+    .p3 {
+      color: #ff5000;
+      border:1px solid #ff5000;
+      font-size: 13px;
+      text-align: center;
+      border-radius: 20px;
+      width: 70px;
+      margin-top: 13px;
+      margin-left: 15px;
+    }
+  }
+}
+.e-d1, .e-d2, .e-d3, .e-d4 {
+  width: 239px;
+  height: 200px;
+}
+.e-d1,
+.e-d2,
+.e-d3,
+.e-d4 {
+  border-right: 1px solid #f2f2f2;
+}

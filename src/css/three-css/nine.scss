@@ -1,0 +1,207 @@
+/* 第九块 */
+.three-nine {
+  margin-top: 7px;
+  //border: 1px solid red;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.07);
+  width: 1190px;
+  height: 962px;
+  background: white;
+
+  .nine-1 {
+    //border: 1px solid magenta;
+    height: 89px;
+    width: 1190px;
+
+    .nine-1-up {
+      //border: 1px solid red;
+      width: 1190px;
+      height: 56px;
+      position: relative;
+
+      p {
+        //border: 1px solid red;
+        width: 1154px;
+        height: 22px;
+        margin-left: 20px;
+        color: #ff0000;
+        font-size: 20px;
+        position: absolute;
+        margin-top: 11px;
+      }
+    }
+
+    .nine-1-down {
+      //border: 1px solid red;
+      width: 1190px;
+      height: 33px;
+      display: flex;
+      flex-direction: row;
+
+      .a-text {
+        //border: 1px solid blue;
+        width: 1110px;
+        height: 20px;
+        top: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 20px;
+
+        a {
+          //border: 1px solid red;
+          font-size: 11px;
+          color: #999;
+          height: 14px;
+          margin-top: 0;
+
+          &:hover {
+            color: #ff5000;
+          }
+        }
+      }
+
+      img {
+        //border: 1px solid;
+        width: 35px;
+        height: 16px;
+        border-radius: 8px;
+        top: 0;
+        margin-left: 15px;
+        text-align: center;
+        padding-top: -10px;
+      }
+    }
+  }
+
+  .nine-2 {
+    //border: 1px solid yellow;
+    width: 1190px;
+    height: 702px;
+
+    .nine-2-up,
+    .nine-2-down {
+      //border: 1px solid green;
+      width: 1190px;
+      height: 351px;
+      display: flex;
+      flex-direction: row;
+
+      .photo-1 {
+        border-top: 1px solid #f4f4f4;
+        border-right: 1px solid #f4f4f4;
+        width: 238px;
+        height: 351px;
+
+        .nine-img {
+          //border: 1px solid;
+          width: 197px;
+          height: 197px;
+          padding: 0 auto;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          margin: 15px auto auto;
+
+          img {
+            width: 197px;
+            height: 197px;
+          }
+        }
+
+        .nine-text {
+          //border: 1px solid;
+          width: 197px;
+          height: 120px;
+          padding: 0 auto;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          margin: auto;
+
+          .up {
+            width: 197px;
+            height: 40px;
+            //border: 1px solid yellow;
+            margin: 8px 0;
+            font-size: 14px;
+            color: #666;
+            overflow: hidden;
+          }
+
+          .center {
+            //border: 1px solid yellow;
+            height: 18px;
+            width: 197px;
+            color: #999;
+          }
+
+          .down {
+            height: 27px;
+            width: 197px;
+            //border: 1px solid yellow;
+            margin-top: 15px;
+
+            .a1 {
+              color: #ff5000;
+              font-size: 22px;
+              margin-left: 5px;
+
+            }
+
+            .a2 {
+              text-decoration: line-through;
+            }
+
+            .a2:hover {
+              text-decoration: none;
+            }
+
+            .a3 {
+              float: right;
+              margin-top: 8px;
+              margin-right: 3px;
+            }
+          }
+        }
+      }
+
+      .photo-1:hover {
+        border: 1px solid #ff5000;
+      }
+    }
+  }
+
+  .nine-3 {
+    //border: 1px solid #bb9cff;
+    border-top: 1px solid #f4f4f4;
+    height: 171px;
+    width: 1190px;
+    display: flex;
+    flex-direction: row;
+
+    .photo-2 {
+      //border: 1px solid blue;
+      width: 375px;
+      height: 130px;
+      //margin: 0 auto;
+      padding: 0 auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+
+      img {
+        width: 375px;
+        height: 130px;
+      }
+
+      img:hover {
+        border: 1px solid #ff5000;
+      }
+    }
+  }
+
+}

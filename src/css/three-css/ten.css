@@ -1,0 +1,111 @@
+.three-ten {
+    /*border: 1px solid red;*/
+    width: 1190px;
+    height: 6745px;
+    margin-top: 7px;
+    background: white;
+    /*box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.07);*/
+
+}
+
+.three-ten .up {
+    width: 1190px;
+    height: 54px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.07);
+
+}
+
+.three-ten .up .text {
+    width: 1158px;
+    height: 48px;
+    margin-top: 5px;
+    padding-left: 32px;
+    font-size: 20px;
+    top:0;
+}
+
+.three-ten .up  .text p {
+    border: 1px solid ;
+    color: #ff9f00;
+    margin-top: 4px;
+}
+
+.three-ten .center {
+    width: 1190px;
+    height: 6645px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.07);
+
+}
+
+.three-ten .center .all-row {
+    width: 1190px;
+    height:6645px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.three-ten .center .all-row .row1 {
+    width: 1190px;
+    height: 332px;
+    display: flex;
+    flex-direction: row;
+}
+
+.three-ten  .center .row1 .row2 {
+    border-bottom: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+    width: 238px;
+    height: 334px;
+}
+
+.three-ten  .center .row1 .row2 .row3 {
+    width: 199px;
+    height:300px;
+    margin: 15px 17px;
+}
+
+.three-ten  .center .row1 .row2 .row3 img {
+    width: 199px;
+    height: 197px;
+}
+.three-ten  .center .row1 .row2 .row3 a {
+    font-size: 13px;
+    color: #666;
+}
+
+.three-ten  .center .row1 .row2 .row3 .money {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.three-ten  .center .row1 .row2 .row3 .money .p1 {
+    font-size: 20px;
+    color: #f40;
+}
+.three-ten  .center .row1 .row2 .row3 .money .p2 {
+    margin-left: 110px;
+    margin-top: 8px;
+    color: #9ca0aa;
+}
+
+.three-ten .down {
+    /*border: 1px solid blue;*/
+    width: 1190px;
+    height: 49px;
+    background: #f2f2f2;
+    margin-top: -3px;
+}
+
+.three-ten .down .text {
+    text-align: center;
+    margin-left: 43%;
+}
+
+.three-ten .down .text p {
+    width: 150px;
+    height: 25px;
+    color: #ccccd0;
+    font-size: 18px;
+    position: absolute;
+}

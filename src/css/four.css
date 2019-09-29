@@ -1,0 +1,50 @@
+.whole-end {
+    border-bottom: 2px solid #f2f2f2;
+    width: 100%;
+    height: 200px;
+    margin-top: 47px;
+}
+
+.whole-end .up {
+    width: 1190px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.whole-end .up .one,
+.whole-end .up .two,
+.whole-end .up .three,
+.whole-end .up .four {
+    /*border: 1px solid gold;*/
+    width: 247px;
+    height: 200px;
+}
+
+.whole-end .up .one h2,
+.whole-end .up .two h2,
+.whole-end .up .three h2,
+.whole-end .up .four h2 {
+    margin-left: 12px;
+    color: #3C3C3C;
+    margin-top: 70px;
+}
+
+.whole-end .up .one h4,
+.whole-end .up .two h4,
+.whole-end .up .three h4,
+.whole-end .up .four h4 {
+    color: #999;
+    margin-left: 5px;
+}
+
+.whole-end .center {
+    border: 1px solid red;
+    width: 1190px;
+    height: 63px;
+}
+
+.whole-end .down {
+    border: 1px solid peru;
+}

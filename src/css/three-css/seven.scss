@@ -1,0 +1,182 @@
+
+/* 第七块 */
+.three-seven {
+  /*border: 1px solid red;*/
+  margin-top: 7px;
+  width: 1190px;
+  height: 768px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.seven-left,
+.seven-right {
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .07);
+  width: 590px;
+  height: 768px;
+  background: white;
+}
+
+.seven-left .seven-p, .seven-right .seven-p {
+  border: 1px solid transparent;
+  background: white;
+  border-bottom: 1px solid #f2f2f2;
+  color: #28ABFF;
+  font-size: 20px;
+  width: 590px;
+  height: 55px;
+}
+
+.seven-right .seven-p {
+  color: #ff5000;
+}
+
+.seven-left .seven-p p,
+.seven-right .seven-p p {
+  margin-top: 9px;
+  margin-left: 25px;
+  height: 40px;
+}
+
+.seven-picture {
+  width: 590px;
+  height: 713px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.seven-left .seven-picture .l-p,
+.seven-right .seven-picture .l-p {
+  border-right: 1px solid #f2f2f2;
+  width: 291px;
+  height: 713px;
+}
+
+.seven-left .seven-picture .r-p,
+.seven-right .seven-picture .r-p {
+  width: 297px;
+  height: 713px;
+}
+
+.l-p .l-p-1, .l-p .l-p-2 {
+  width: 291px;
+  height: 356px;
+}
+
+.l-p .l-p-1 img {
+  width: 254px;
+  height: 317px;
+  margin-left: 16px;
+  margin-top: 19px;
+}
+
+.l-p .l-p-1:hover {
+  border: 1px solid #ff8000;
+}
+
+.l-p .l-p-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.l-p .l-p-2 .l-p-2-1, .l-p .l-p-2 .l-p-2-2, .l-p .l-p-2 .l-p-2-3 {
+  border-top: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+}
+
+.l-p .l-p-2 .l-p-2-1:hover, .l-p .l-p-2 .l-p-2-2:hover, .l-p .l-p-2 .l-p-2-3:hover {
+  border: 1px solid #ff8000;
+}
+
+.r-p .r-p-1, .r-p .r-p-2, .r-p .r-p-3 {
+  width: 297px;
+  height: 237px;
+  display: flex;
+  flex-direction: column;
+}
+
+.r-p .r-p-1:hover, .r-p .r-p-2:hover, .r-p .r-p-3:hover {
+  border: 1px solid #ff8000;
+}
+
+.r-p .r-p-1, .r-p .r-p-2 {
+  border-bottom: 1px solid #f2f2f2;
+
+}
+
+.r-p .r-p-1 span, .r-p .r-p-2 span, .r-p .r-p-3 span {
+  display: flex;
+  flex-direction: row;
+  width: 297px;
+  height: 58px;
+  color: #333;
+}
+
+.r-p .r-p-1 span a, .r-p .r-p-2 span a, .r-p .r-p-3 span a {
+  height: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.r-p .r-p-1 span .wz1, .r-p .r-p-2 span .wz1, .r-p .r-p-3 span .wz1 {
+  font-size: 18px;
+}
+
+.r-p .r-p-1 span .wz2, .r-p .r-p-2 span .wz2, .r-p .r-p-3 span .wz2 {
+  color: #999;
+  margin-top: 25px;
+  margin-left: 0;
+}
+
+.r-p .r-p-1 span:nth-child(2), .r-p .r-p-2 span:nth-child(2), .r-p .r-p-3 span:nth-child(2) {
+  font-size: 12px;
+}
+
+.r-p .r-p-1 .img22, .r-p .r-p-2 .img22, .r-p .r-p-3 .img22 {
+  height: 120px;
+  width: 240px;
+  margin-top: 30px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.l-p .l-p-2-1, .l-p .l-p-2-2, .l-p .l-p-2-3 {
+  /*border: 1px solid red;*/
+  width: 291px;
+  height: 118px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.l-p .l-p-2-1 img, .l-p .l-p-2-2 img, .l-p .l-p-2-3 img {
+  width: 100px;
+  height: 100px;
+  margin-top: 8px;
+}
+
+.l-p .l-p-2-1 span, .l-p .l-p-2-2 span, .l-p .l-p-2-3 span {
+  margin-top: 30px;
+  height: 60px;
+  /*margin-left: -10px;*/
+}
+
+.l-p .l-p-2-1 span a, .l-p .l-p-2-2 span a, .l-p .l-p-2-3 span a {
+  /*margin-left: -10px;*/
+  color: #333;
+  font-size: 18px;
+}
+
+.l-p .l-p-2-1 span p, .l-p .l-p-2-2 span p, .l-p .l-p-2-3 span p {
+  margin-top: -2px;
+  color: #999;
+}
+
+.l-p .l-p-2-1 img, .l-p .l-p-2-2 img, .l-p .l-p-2-3 img {
+  margin-left: 40px;
+}
+
