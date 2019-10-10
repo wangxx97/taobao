@@ -2,7 +2,7 @@
 
 ### 设计稿
 
-![在线预览](http://taobao.gengwenhao.cn)
+[在线预览](http://taobao.gengwenhao.cn)
 
 ![avatar](/src/imgs/TAOBAO.png)
 
